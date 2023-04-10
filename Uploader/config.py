@@ -13,17 +13,17 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6155002509:AAFsGEZh95aE6Jag-n2o7l6rwuDMvf4SiWg")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "14604313"))
+    API_HASH = os.environ.get("API_HASH", "a8ee65e5057b3f05cf9f28b71667203a")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001601615641")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001957441632")
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 4194304000
     TG_MAX_FILE_SIZE = 4194304000
@@ -46,17 +46,17 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Uploader-Bot")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001735454980"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001957441632"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5151412494"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "2067727305"))
     # Update channel for Force Subscribe
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001601615641")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001957441632")
     TG_MIN_FILE_SIZE = 2097152000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "pro_url_uploader_658_bot")
-    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "5151412494 1105331049 2135251198 5376983178 2033342329").split()))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "myuploder_bot")
+    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "2067727305").split()))
     PRO_USERS.append(OWNER_ID)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
     BYPASS = os.environ.get("BYPASS", "True")
     ADL_BOT_RQ = {}
-    AUTH_USERS = list(set(int(x) for x in os.environ.get("AUTH_USERS", "5151412494").split()))
+    AUTH_USERS = list(set(int(x) for x in os.environ.get("AUTH_USERS", "2067727305").split()))
     AUTH_USERS.append(OWNER_ID)
