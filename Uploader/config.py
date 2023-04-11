@@ -46,11 +46,11 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://480p:encode@cluster0.7fgwrif.mongodb.net/?retryWrites=true&w=majority")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Uploader-Bot")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001957441632"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Uploadlog"))
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", "2067727305"))
     # Update channel for Force Subscribe
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001957441632")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Uploadlog")
     TG_MIN_FILE_SIZE = 2097152000
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "myuploder_bot")
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "2067727305").split()))
