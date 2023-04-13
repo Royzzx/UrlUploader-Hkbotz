@@ -9,7 +9,7 @@ I ᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴜʀʟ ᴜᴘʟ
 
 Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ
 
-𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ : [AK IMAX MOVIES](https://t.me/akimaxmovies)
+𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ : [DHRUV PRAJAPATI](https://t.me/dhruvprajapati2)
 """
     HELP_TEXT = """
 ʟɪɴᴋ ᴛᴏ ᴍᴇᴅɪᴀ ᴏʀ ғɪʟᴇ
@@ -32,28 +32,25 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 
 ➠ sᴇɴᴅ /showthumb ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
 
-𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ : [AK IMAX MOVIES](https://t.me/akimaxmovies)
- 
+𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ : [DHRUV PRAJAPATI](https://t.me/dhruvprajapati2)
 """
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ](http://t.me/pro_url_uploader_658_bot)
+**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ](http://t.me/myuploder_bot)
 
-**Cʜᴀɴɴᴇʟ** : [GreyMatter's Bot](https://t.me/greymatter_bots)
+**Cʜᴀɴɴᴇʟ** : [DHRUV PRAJAPATI](https://t.me/dhruvprajapati2)
 
 **Vᴇʀꜱɪᴏɴ** : [2.0 ʙᴇᴛᴀ](http://t.me/GreyMatter_Uploader_Bot)
 
-**Sᴏᴜʀᴄᴇ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/GreyMatter_Owner)
+**Sᴏᴜʀᴄᴇ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Uploaderlog)
 
-**Sᴇʀᴠᴇʀ** : [VPS](https://youtube.com/c/GreyMattersBot)
+**Sᴇʀᴠᴇʀ** : [VPS](https://t.me/dhruvprajapati2)
 
 **Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.10.2](https://www.python.org/)
 
 **Fʀᴀᴍᴇᴡᴏʀᴋ :** [ᴘʏʀᴏɢᴀᴍ 2.0.30](https://docs.pyrogram.org/)
 
-**Dᴇᴠᴇʟᴏᴘᴇʀ :** [GreyMatter Owner](https://t.me/GreyMatter_Owner)
-
-**𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ** : [AK IMAX MOVIES](https://t.me/akimaxmovies)
-
+**Dᴇᴠᴇʟᴏᴘᴇʀ :** [DHRUV PRAJAPATI](https://t.me/dhruvprajapati2)
+**𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 ʙʏ** : [DHRUV PRAJAPATI](https://t.me/dhruvprajapati2)
 """
 
 
@@ -64,7 +61,7 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 ⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
 """
     ID_TEXT = """
-🆔 Your Telegram ID 𝐢𝐬 :- <code>{}</code> \𝚗\𝚗𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 𝙱𝚢 : @akimaxmovies
+🆔 Your Telegram ID 𝐢𝐬 :- <code>{}</code> \𝚗\𝚗𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 𝙱𝚢 : @dhruvprajapati2
 """
 
     INFO_TEXT = """
@@ -191,7 +188,7 @@ Upgrade your /plans to Remove Time Gaps and For link Processing 𝚂𝚙𝚘𝚗
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Send me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
     BANNED_USER_TEXT = "<code>You are Banned!</code> \𝚗\𝚗𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 𝙱𝚢 : @akimaxmovies"
-    CHECK_LINK = "Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʟɪɴᴋ ⌛ \𝚗\𝚗𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 𝙱𝚢 : @akimaxmovies"
+    CHECK_LINK = "Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʟɪɴᴋ ⌛ \𝚗\𝚗𝚂𝚙𝚘𝚗𝚜𝚘𝚛𝚎𝚍 𝙱𝚢 : @dhruvprajapati2"
 
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
