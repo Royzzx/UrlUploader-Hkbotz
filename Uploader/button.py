@@ -45,11 +45,19 @@ async def youtube_dl_call_back(bot, update):
     except (FileNotFoundError) as e:
         await update.message.delete()
         return False
-    youtube_dl_url = update.message.reply_to_message.text
+
+    if update.message.reply_to_message is not None:
+        youtube_dl_url = update.message.reply_to_message.text
+    else:
+        # handle the case where there is no reply_to_message
+        await update.message.delete()
+        return False
+
     custom_file_name = str(response_json.get("title")) + \
         "_" + youtube_dl_format + "." + youtube_dl_ext
     youtube_dl_username = None
     youtube_dl_password = None
+
     if "|" in youtube_dl_url:
         url_parts = youtube_dl_url.split("|")
         if len(url_parts) == 2:
@@ -77,16 +85,10 @@ async def youtube_dl_call_back(bot, update):
             youtube_dl_username = youtube_dl_username.strip()
         if youtube_dl_password is not None:
             youtube_dl_password = youtube_dl_password.strip()
-        logger.info(youtube_dl_url)
-        logger.info(custom_file_name)
-    else:
-        for entity in update.message.reply_to_message.entities:
-            if entity.type == "text_link":
-                youtube_dl_url = entity.url
-            elif entity.type == "url":
-                o = entity.offset
-                l = entity.length
-                youtube_dl_url = youtube_dl_url[o:o + l]
+
+    logger.info(youtube_dl_url)
+    logger.info(custom_file_name)
+
     await update.message.edit_caption(
         caption=Translation.DOWNLOAD_START.format(custom_file_name),
         parse_mode=enums.ParseMode.HTML
